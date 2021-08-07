@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    margin: 0%; 
+}
+
+header{
+    background-color: black;
+}
+
+footer, nav{
+    display: flex;
+    background-color: #333;
+}
+
+footer a, nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+section{
+    text-align: center;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    min-height: 40vh;
+}
+
+section:nth-child(even){
+    background-color: #ececec;
+}
+
+img{
+    padding: 0px 20px;
+}
+
+.banner{
+    background-image: url("apni kaksha logo hindi/18-23-50-logo.gif");
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+.flex-align-left{
+    margin-left: auto;
+}
+
+.menu-btn:hover{
+    background-color: #969696;
+    color: black;
+}
+
+section h2{
+    padding-bottom: 20px;
+}
+
+section h2 span{
+    background: linear-gradient(45deg, #f5d837, #bbb812);
+    padding: 10px 55px;
+    border-radius: 30px;
+    color: white;
+}
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.carousel-cell video{
+    max-width: 100%;
+}
+
+.img-responsive{
+    max-width: 100vh;
+    height: 100vh;
+}
+
+.profile_img{
+    border-radius: 50%;
+}
+
+.profile_name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
+
+.sm-handle a{
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.sm-handle a:hover{
+    background-color: rgb(30 30 30 / 25%);
+}
+
+.sm-handle a i{
+    margin: 5px;
+}
+
+.yt-handle{
+    color: #FF0000;
+}
+
+.insta-handle{
+    color: #dd2a7b;
+}
+
+.linkedin-handle{
+    color: #0e76a8;
+}
+
+.about_us{
+    margin: 50px;
+}
+
+.about_title{
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #120f5e;
+}
+
+.about_content{
+    color: #1c1a3a;
+    font-weight: 900;
+    padding-bottom: 10px 0px 20px 0px;
+}
+
+@media screen and (max-width: 700px){
+    footer, nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .flex-align-left{
+        margin-left: 0;
+    }
+} 
